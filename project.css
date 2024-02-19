@@ -149,7 +149,7 @@ form input[type="submit"] {
 /* home page css */
 
 .search_warp {
-  background: url(../images/search_bg.jpg), rgba(0, 0, 0, 0.9);
+  background: url(search_bg.jpg), rgba(0, 0, 0, 0.9);
   background-position: center;
   display: flex;
   align-items: center;
