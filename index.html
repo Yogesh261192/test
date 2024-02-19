@@ -1,39 +1,43 @@
 
+<!DOCTYPE html>
+
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/project.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 </head>
 
 <body>
-  <section class="form_warp">
-    <div class="wrapper">
-      <div class="form signup">
-        <header>Signup</header>
-        <form action="#" id="signupForm">
-          <input type="text" placeholder="Email address" id="signupUsername" required />
-          <input type="password" placeholder="Password" id="signupPassword" required />
-          <input type="submit" value="Signup" onclick="signup()" />
-        </form>
-      </div>
+    <section class="search_warp">
+        <div class="container">
+            <div class="search_card">
+                <h2>Search your Movies</h2>
+                <!-- <form action="" id="myForm">
+                    <input type="text" name="" id="" placeholder="name">
+                    <button>Submit</button>
+                </form> -->
+                <div class="search_movi_form">
+                    <form action="#" id="myForm">
+                        <input type="text" placeholder="search here movies" id="" required />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+            <div class="watch_listing"></div>
+            <div class="movi_wrapper"></div>
+        </div>
+        <script src="js/index2.js"></script>
+    </section>
 
-      <div class="form login">
-        <header>Login</header>
-        <form action="#">
-          <input type="text" placeholder="Email address" id="loginUsername" required />
-          <input type="password" placeholder="Password" id="loginPassword" required />
-
-          <input type="submit" value="Login" onclick="login(event)" />
-        </form>
-      </div>
-    </div>
-  </section>
-  <script src="js/index2.js"></script>
 </body>
 
 </html>
